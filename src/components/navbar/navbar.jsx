@@ -41,7 +41,7 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#212529] text-white">
+    <header className="bg-[#16151A] text-white">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -83,7 +83,7 @@ const Navbar = () => {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-5 top-full z-10 mt-5  w-60 list-none  overflow-hidden  bg-[#212529] shadow-md shadow-white">
+              <Popover.Panel className="absolute -left-5 top-full z-10 mt-5  w-60 list-none  overflow-hidden  bg-[#16151A] shadow-md shadow-white">
                 <div className="p-4">
                   {pages.map((item) => (
                     <li className="mb-5 cursor-pointer hover:underline">
@@ -115,7 +115,7 @@ const Navbar = () => {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-5 top-full z-10 mt-5  w-60 list-none  overflow-hidden  bg-[#212529] shadow-md shadow-white">
+              <Popover.Panel className="absolute -left-5 top-full z-10 mt-5  w-60 list-none  overflow-hidden  bg-[#16151A] shadow-md shadow-white">
                 <div className="p-4">
                   {pages.map((item) => (
                     <li className="mb-5 cursor-pointer hover:underline">
@@ -144,7 +144,7 @@ const Navbar = () => {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-5 top-full z-10 mt-5  w-60 list-none  overflow-hidden  bg-[#212529] shadow-md shadow-white">
+              <Popover.Panel className="absolute -left-5 top-full z-10 mt-5  w-60 list-none  overflow-hidden  bg-[#16151A] shadow-md shadow-white">
                 <div className="p-4">
                   {pages.map((item) => (
                     <li className="mb-5 cursor-pointer hover:underline">
@@ -172,14 +172,10 @@ const Navbar = () => {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto px-6 py-6 sm:max-w-sm sm:ring-1 bg-[#16151A] sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <img
-                className="h-8 w-auto"
-                src="/assets/Antech-Logo.svg"
-                alt=""
-              />
+              <img className="h-8 w-auto" src="/assets/nft-logo.png" alt="" />
             </a>
             <button
               type="button"
