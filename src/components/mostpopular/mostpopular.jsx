@@ -55,9 +55,17 @@ function MostPopular() {
   return (
     <div>
       <div className="text-[#fff]">
-        <h1 className="text-white ml-[120px] mt-10 text-4xl font-semibold mb-8">
-          Popular Collections
-        </h1>
+        <div className="lg:flex justify-between w-[83%] mx-auto m-5">
+          <h1 className=" text-2xl md:text-4xl font-bold mb-5">
+            Popular Collections
+          </h1>
+          <a
+            href="#"
+            className="text-sm md:text-lg font-bold hover:text-blue-800"
+          >
+            Explore More <span>&rarr;</span>
+          </a>
+        </div>
         <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 w-[85%] mx-auto text-center p-2">
           {cards.map((list) => (
             <div className="p-6 rounded-lg bg-[#212529] xl:h-80 lg:h-72 md:h-80">

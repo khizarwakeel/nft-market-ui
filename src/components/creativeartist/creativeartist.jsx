@@ -36,7 +36,7 @@ const cards = [
 function CreativeArtist() {
   return (
     <div>
-      <div className="py-24 text-[#fff]">
+      <div className=" lg:py-16 text-[#fff]">
         <h1 className="text-white md:pl-16 pl-10 xl:pl-28 lg:pl-24 mt-10 text-4xl font-semibold mb-8">
           Top Sellers
         </h1>
