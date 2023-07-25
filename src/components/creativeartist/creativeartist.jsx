@@ -23,7 +23,7 @@ const cards = [
   },
   {
     imgSrc: "/assets/avatar5.jpg",
-    title: "Yasmin",
+    title: "@Yasmin",
     coins: "3.2 BNB",
   },
   {
@@ -40,7 +40,7 @@ function CreativeArtist() {
         <h1 className="text-white ml-[120px] mt-10 text-4xl font-semibold mb-8">
           Top Sellers
         </h1>
-        <div class="grid grid-cols-3 gap-6 w-[85%] mx-auto text-center p-2">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 w-[85%] mx-auto text-center p-2">
           {cards.map((list) => (
             <div className="p-6 rounded-xl bg-[#212529] flex">
               <div className="flex items-center">
