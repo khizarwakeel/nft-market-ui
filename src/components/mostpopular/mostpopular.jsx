@@ -56,11 +56,11 @@ function MostPopular() {
     <div>
       <div className="text-[#fff]">
         <h1 className="text-white ml-[120px] mt-10 text-4xl font-semibold mb-8">
-        Popular Collections
+          Popular Collections
         </h1>
-        <div class="grid grid-cols-4 gap-8 w-[85%] mx-auto text-center p-2">
+        <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 w-[85%] mx-auto text-center p-2">
           {cards.map((list) => (
-            <div className="p-6 rounded-lg bg-[#212529] h-72 relative">
+            <div className="p-6 rounded-lg bg-[#212529] xl:h-80 lg:h-72 md:h-80">
               <div>
                 <img src={list.bgImg} alt="" className="rounded-lg" />
               </div>
@@ -68,10 +68,10 @@ function MostPopular() {
                 <img
                   src={list.imgSrc}
                   alt=""
-                  className="rounded-full w-16 absolute left-[38%] top-[50%]"
+                  className="rounded-full w-16 mx-auto -mt-10"
                 />
               </div>
-              <div className="pt-8">
+              <div className="pt-2">
                 <h2 className="text-lg font-semibold">{list.title}</h2>
                 <h3 className="text-slate-400">{list.coins}</h3>
               </div>

@@ -12,7 +12,7 @@ const App = () => {
       <Herosection />
       {/* <LiveAuction/> */}
       <CreativeArtist />
-      {/* <MostPopular /> */}
+      <MostPopular />
     </div>
   );
 };
