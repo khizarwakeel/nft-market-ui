@@ -37,7 +37,7 @@ function CreativeArtist() {
   return (
     <div>
       <div className="py-24 text-[#fff]">
-        <h1 className="text-white ml-[120px] mt-10 text-4xl font-semibold mb-8">
+        <h1 className="text-white md:pl-16 pl-10 xl:pl-28 lg:pl-24 mt-10 text-4xl font-semibold mb-8">
           Top Sellers
         </h1>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 w-[85%] mx-auto text-center p-2">

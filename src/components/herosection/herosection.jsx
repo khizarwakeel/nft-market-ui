@@ -4,7 +4,7 @@ function Herosection() {
   return (
     <div>
       <section className="text-white bg-[url('/assets/bgimage.svg')] bg-no-repeat bg-cover">
-        <div class="grid max-w-screen-xl px-16 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-36">
+        <div class="grid max-w-screen-xl md:px-16 px-8 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-36">
           <div class="mr-auto place-self-center lg:col-span-7">
             <h2 className=" relative font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               NETSTORM <span className="border-t-4 border-indigo-500 absolute top-3 ml-4">--------</span>
@@ -17,7 +17,7 @@ function Herosection() {
             </p>
             <a
               href="#"
-              class="inline-flex items-center justify-center mr-10 text-white w-40 py-3 px-6 rounded-full lg:w-32 lg:py-2 lg:px-0 border-2 border-white hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:border-none"
+              class="inline-flex items-center justify-center mr-10 mb-5 text-white w-40 py-3 px-6 rounded-full lg:w-32 lg:py-2 lg:px-0 border-2 border-white hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:border-none"
             >
               Explore
             </a>
