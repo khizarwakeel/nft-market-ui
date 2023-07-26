@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <Navbar />
       <Herosection />
-      {/* <LiveAuction/> */}
+      <LiveAuction />
       <CreativeArtist />
       <MostPopular />
       <ExclusiveArtist />
